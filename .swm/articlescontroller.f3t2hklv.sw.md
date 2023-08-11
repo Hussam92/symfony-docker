@@ -14,11 +14,11 @@ This is the `/articles` endpoint. It is a GET Request and will return you a list
 
 <br/>
 
-The function `list`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:5:5:`    public function list(): Response`"/> shows all articles. It uses the `Response`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:10:10:`    public function list(): Response`"/> class as return type.
+The function `listArticles`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:5:5:`    public function listArticles(): Response`"/> shows all articles. It uses the `Response`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:10:10:`    public function listArticles(): Response`"/> class as return type.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/Controller/ArticlesController.php
 ```hack
-12         public function list(): Response
+12         public function listArticles(): Response
 13         {
 14             return new Response('Welcome to Latte and Code ');
 15         }
