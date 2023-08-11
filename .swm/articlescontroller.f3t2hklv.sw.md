@@ -9,7 +9,7 @@ This is the `/articles` endpoint. It is a GET Request and will return you a list
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/Controller/ArticlesController.php
 ```hack
-11         #[Route(path: '/articles', name: 'articles', methods: ['GET'])]
+11         #[Route(name: 'articles', path: '/articles', methods: ['GET'])]
 ```
 
 <br/>
