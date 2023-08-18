@@ -11,6 +11,6 @@ class ArticlesController extends AbstractController
     #[Route(name: 'articles', path: '/articles', methods: ['GET'])]
     public function listArticles(): Response
     {
-        return new Response('Welcome to Latte and Code ');
+        return new Response('This controller shows latest articles');
     }
 }
