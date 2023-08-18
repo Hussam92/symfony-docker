@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ArticlesController extends AbstractController
 {
     #[Route(name: 'articles', path: '/articles', methods: ['GET'])]
-    public function listArticles(): Response
+    public function listLatestArticles(): Response
     {
         return new Response('This controller shows latest articles');
     }
