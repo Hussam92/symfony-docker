@@ -6,6 +6,8 @@ app_version: 1.14.4
 ---
 
 This is the `/articles` endpoint. It is a GET Request and will return you a list of the latest articles. It returns a JSON List
+
+This still needs to be updated to show published Articles
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/Controller/ArticlesController.php
 ```hack
