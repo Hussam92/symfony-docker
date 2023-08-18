@@ -16,7 +16,7 @@ This still needs to be updated to show published Articles
 
 <br/>
 
-The function `listArticles`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:5:5:`    public function listArticles(): Response`"/> shows all articles. It uses the `Response`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:10:10:`    public function listLatestArticles(): Response`"/> class as return type.
+The function `listLatestArticles`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:5:5:`    public function listLatestArticles(): Response`"/> shows all articles. It uses the `Response`<swm-token data-swm-token=":src/Controller/ArticlesController.php:12:10:10:`    public function listLatestArticles(): Response`"/> class as return type.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/Controller/ArticlesController.php
 ```hack
